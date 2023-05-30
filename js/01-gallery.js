@@ -43,4 +43,9 @@ HTML теги або CSS класи, крім тих, що містяться в
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
+const galleryListRef = document.querySelector(".gallery");
+console.log(galleryListRef);
+
+const createGalleryItems = ({preview, original, description}) {}
+
 console.log(galleryItems);
